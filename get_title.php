@@ -10,7 +10,7 @@ function getTitle($url){
     }
 }
 
-echo getTitle('http://www.ulr.com');
+echo getTitle('http://www.url.com');
 echo "<br />";
 
 ?>
