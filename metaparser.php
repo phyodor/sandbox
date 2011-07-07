@@ -1,4 +1,5 @@
 <?php
+date_default_timezone_set('Europe/Minsk');
 $sitemap = file_get_contents('sitemap.xml');
 preg_match_all('/<loc>(.+)<\/loc>/msU',$sitemap,$urls);
 
